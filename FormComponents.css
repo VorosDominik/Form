@@ -1,0 +1,48 @@
+/* Alapvető űrlap (form) stílus */
+.Formcomponents {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Cím stílus (label) */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input mezők stílusa */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Űrlap beküldés gomb stílusa */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Gomb hover stílusa */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hiba üzenet stílusa (opcionális) */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px
+  }
